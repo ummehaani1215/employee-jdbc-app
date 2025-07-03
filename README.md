@@ -25,6 +25,8 @@ CREATE TABLE employee (
     role VARCHAR(50),
     salary DOUBLE
 );
+---password is hidden.
+
 
 ## How to compile and run
 javac -cp ".;lib/mysql-connector-j-8.x.x.jar" EmployeeApp.java (Compile)
