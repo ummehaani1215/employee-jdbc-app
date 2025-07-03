@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class EmployeeApp {
     private static final String DB_URL = "jdbc:mysql://localhost:3306/company_db";
     private static final String DB_USER = "root";
-    private static final String DB_PASS = "Umme@2002";
+    private static final String DB_PASS = "varsha@123";
 
     private static Connection connect() throws SQLException {
         return DriverManager.getConnection(DB_URL, DB_USER, DB_PASS);
